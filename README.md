@@ -1,0 +1,3 @@
+# Pedometer-Android-Application
+
+We have developed an android application for a pedometer with 2 activities. The main activity counts the number of steps completed, displays the daily step goal of the user, has a button for resetting the step count to zero, and one for entering goals. The second activity is for user to input their step goals. Goals can be set in the forms of steps, calories, or duration of their walk. On completion of these goals, user receives a notification of the same. This application works in the background as well; steps are counted even when the app is minimized, and once the goal is met, user receives a toast message of goal completion. This background activity is achieved with the help of a service.
